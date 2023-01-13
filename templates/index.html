@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鹰眼</title>
+    <link rel="Shortcut Icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/hello.css') }}">
+</head>
+<body>
+    <h1>鹰眼智能监控系统</h1>
+    <h2>--盛林科技</h2>
+    <div class="demo">
+        <img src="{{ url_for('video_feed') }}" height="550" alt="">
+    </div>
+</body>
+</html>
+

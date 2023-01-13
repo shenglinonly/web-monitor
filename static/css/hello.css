@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.demo{
+    height: 600px;
+    margin: 50px auto;
+    border: 1px dashed #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
